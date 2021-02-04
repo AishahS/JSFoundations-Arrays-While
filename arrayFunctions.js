@@ -72,7 +72,7 @@ function secondHalfOfArrayIfItIsEven(fruits) {
 
   if (fruit.length % 2 === 1) {
     return instructors.slice(3, 4);
-  }
+  } else return 0;
 }
 
 /**
@@ -92,10 +92,17 @@ function secondHalfOfArrayIfItIsEven(fruits) {
 function youGottaCalmDown(shout) {
   // Your code here
 
-  for (let i = shout.endWith - 1; i >= 0; i--) {
-    shout.length(i);
-  }
+  if (shout.endsWith("!")) 
+
+  let i =0
+for (i=0; i< shout.length; i++)
+
 }
+
+    
+
+  
+
 
 module.exports = {
   isArrayLengthOdd,
