@@ -10,6 +10,8 @@
  */
 function isArrayLengthOdd(numbers) {
   // Your code here
+
+  return numbers.length % 2 == 1;
 }
 
 /**
@@ -24,6 +26,7 @@ function isArrayLengthOdd(numbers) {
  */
 function isArrayLengthEven(numbers) {
   // Your code here
+  return numbers.length % 2 == 0;
 }
 
 /**
@@ -36,8 +39,10 @@ function isArrayLengthEven(numbers) {
  */
 function addLailaToArray(instructors) {
   // Your code here
-}
 
+  instructors.push("Laila");
+  return instructors;
+}
 /**
  * eliminateTeam(teams):
  * - receives array `teams`
@@ -48,6 +53,8 @@ function addLailaToArray(instructors) {
  */
 function eliminateTeam(teams) {
   // Your code here
+
+  return teams.pop();
 }
 
 /**
@@ -62,6 +69,10 @@ function eliminateTeam(teams) {
  */
 function secondHalfOfArrayIfItIsEven(fruits) {
   // Your code here
+
+  if (fruit.length % 2 === 1) {
+    return instructors.slice(3, 4);
+  }
 }
 
 /**
@@ -80,6 +91,10 @@ function secondHalfOfArrayIfItIsEven(fruits) {
  */
 function youGottaCalmDown(shout) {
   // Your code here
+
+  for (let i = shout.endWith - 1; i >= 0; i--) {
+    shout.length(i);
+  }
 }
 
 module.exports = {
